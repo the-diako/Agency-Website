@@ -9,10 +9,10 @@ import {
   services01,
   services02,
   services03,
-  features01,
-  features02,
-  features03,
-  features04,
+  featuers01,
+  featuers02,
+  featuers03,
+  featuers04,
 } from "../assets";
 
 export const navLinks = [
@@ -21,8 +21,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "featuers",
+    title: "featuers",
   },
   {
     id: "community",
@@ -93,30 +93,30 @@ export const services = [
   },
 ];
 
-export const features = [
+export const featuers = [
   {
     id: 1,
     title: "2,245,341",
     content: "Members",
-    icon: features01,
+    icon: featuers01,
   },
   {
     id: 2,
     title: "46,328",
     content: "Clubs",
-    icon: features02,
+    icon: featuers02,
   },
   {
     id: 3,
     title: "828,867",
     content: "Event Bookings",
-    icon: features03,
+    icon: featuers03,
   },
   {
     id: 4,
     title: "1,926,436",
     content: "Payments",
-    icon: features04,
+    icon: featuers04,
   },
 ];
 
