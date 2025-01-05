@@ -9,19 +9,19 @@ import {
   services01,
   services02,
   services03,
-  featuers01,
-  featuers02,
-  featuers03,
-  featuers04,
+  features01,
+  features02,
+  features03,
+  features04,
 } from "../assets";
 
-export const NavbarLinks = [
+export const navLinks = [
   {
     id: "home",
     title: "Home",
   },
   {
-    id: "featuers",
+    id: "features",
     title: "Features",
   },
   {
@@ -98,25 +98,25 @@ export const features = [
     id: 1,
     title: "2,245,341",
     content: "Members",
-    icon: featuers01,
+    icon: features01,
   },
   {
     id: 2,
     title: "46,328",
     content: "Clubs",
-    icon: featuers02,
+    icon: features02,
   },
   {
     id: 3,
     title: "828,867",
     content: "Event Bookings",
-    icon: featuers03,
+    icon: features03,
   },
   {
     id: 4,
     title: "1,926,436",
     content: "Payments",
-    icon: featuers04,
+    icon: features04,
   },
 ];
 
