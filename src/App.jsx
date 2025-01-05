@@ -11,26 +11,7 @@ import Customer from "./components/Customer";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return (
-    <div className="w-full py-5 px-10 shadow-2xl">
-      <div className="container mx-auto flex items-center justify-between">
-        <Navbar />
-      </div>
-
-      <div className="w-full mx-auto">
-        <Hero />
-        <Clients />
-        <Services />
-        <Unlock />
-        <Achievements />
-        <Calender />
-        <Community />
-        <CommunityUpdates />
-        <Customer />
-        <Footer />
-      </div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default App;
