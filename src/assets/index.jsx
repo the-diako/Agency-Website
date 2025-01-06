@@ -22,6 +22,7 @@ import user03 from "../assets/user03.png";
 import menu from "../assets/menu.svg";
 import close from "../assets/close.svg";
 import arrow from "../assets/arrow.png";
+import community from "../assets/community.png";
 
 export {
   client01,
@@ -48,4 +49,5 @@ export {
   menu,
   close,
   arrow,
+  community,
 };
