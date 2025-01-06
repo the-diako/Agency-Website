@@ -3,10 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      sm: "480px",
-      md: "720px",
-      lg: "1060px",
-      xl: "1200px",
+      // sm: "480px",
+      // md: "720px",
+      // lg: "1060px",
+      // xl: "1200px",
+
+      sm: "340px",
+      md: "540px",
+      lg: "768px",
+      xl: "1180px",
     },
     extend: {
       colors: {
