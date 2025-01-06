@@ -20,7 +20,7 @@ const Services = () => {
           return (
             <div
               key={cards.id}
-              className="flex flex-col items-center justify-center gap-2 text-center"
+              className="flex flex-col items-center justify-center gap-2 text-center shadow-xl rounded-lg p-5"
             >
               <img src={cards.icon} alt="services" />
               <h4 className="font-medium font-Roboto text-[#4D4D4D] text-2xl">
