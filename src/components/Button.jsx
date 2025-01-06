@@ -1,5 +1,5 @@
 import React from "react";
-import { arrow } from "../assets";
+import { whiteArrow } from "../assets";
 
 const Button = ({ title, style }) => {
   return (
@@ -8,7 +8,7 @@ const Button = ({ title, style }) => {
     >
       {title}
       <img
-        src={arrow}
+        src={whiteArrow}
         alt="arrow"
         className="px-1 lg:px-4 md:hidden lg:block"
       />
