@@ -27,14 +27,14 @@ const Navbar = () => {
       <img
         src={openMenu ? menu : close}
         alt="open icon"
-        className={`w-[40px] z-10 py-0 cursor-pointer md:hidden `}
+        className={`w-[40px] z-10 py-0 cursor-pointer min-[815px]:hidden `}
         onClick={() => setOpenMenu((prev) => !prev)}
       />
 
       <ul
         className={`flex flex-col absolute bg-gray-100 shadow-2xl w-full left-0 top-0 space-y-5 py-10 items-center ${
           openMenu ? "left-[100%]" : "left-0"
-        } md:flex-row md:static md:shadow-none md:bg-transparent md:space-y-0 md:py-0 md:px-2 md:w-auto `}
+        } min-[815px]:flex-row  min-[815px]:static min-[815px]:shadow-none min-[815px]:bg-transparent min-[815px]:space-y-0 min-[815px]:py-0 min-[815px]:px-2 min-[815px]:w-auto `}
       >
         {navLinks.map((link) => {
           return (
