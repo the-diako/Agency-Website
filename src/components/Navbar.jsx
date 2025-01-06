@@ -19,7 +19,9 @@ const Navbar = () => {
     items-center 
     justify-between 
     bg-white 
-    shadow-2xl"
+    shadow-2xl
+    z-10
+    "
     >
       <img src={logo} alt="Logo" className="w-[110px] cursor-pointer" />
       <img
