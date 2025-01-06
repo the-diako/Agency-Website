@@ -4,7 +4,7 @@ import { logo, menu, close, arrow } from "../assets";
 import Button from "./Button.jsx";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(true);
 
   return (
     <div
