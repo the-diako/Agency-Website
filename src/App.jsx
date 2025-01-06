@@ -11,7 +11,102 @@ import Customer from "./components/Customer";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <section className="w-full px-24">
+      <div className="py-5">
+        <Navbar />
+      </div>
+
+      <div className="py-10">
+        <Hero />
+        <Clients />
+        <Services />
+        <Unlock />
+        <Achievements />
+        <Calender />
+        <Community />
+        <CommunityUpdates />
+        <Customer />
+        <Footer />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </section>
+  );
 };
 
 export default App;

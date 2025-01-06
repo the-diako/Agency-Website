@@ -19,6 +19,9 @@ import services03 from "../assets/services03.png";
 import user01 from "../assets/user01.png";
 import user02 from "../assets/user02.png";
 import user03 from "../assets/user03.png";
+import menu from "../assets/menu.svg";
+import close from "../assets/close.svg";
+import arrow from "../assets/arrow.png";
 
 export {
   client01,
@@ -42,4 +45,7 @@ export {
   user01,
   user02,
   user03,
+  menu,
+  close,
+  arrow,
 };
