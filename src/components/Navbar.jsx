@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants/index.jsx";
-import { logo, menu, close, arrow } from "../assets";
+import { logo, menu, close, whiteArrow } from "../assets";
 import Button from "./Button.jsx";
 
 const Navbar = () => {
