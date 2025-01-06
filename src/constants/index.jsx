@@ -72,21 +72,22 @@ export const clients = [
 export const services = [
   {
     id: 1,
-    title: "Membership Organisations",
+    title: "Membership<br />Organisations",
     content:
       "Our membership management software provides full automation of membership renewals and payments",
     icon: services01,
   },
   {
     id: 2,
-    title: "National Associations",
+    title: "National<br />Associations",
     content:
       "Our membership management software provides full automation of membership renewals and paymentsb",
     icon: services02,
   },
   {
     id: 3,
-    title: "Clubs And Groups",
+    title: "Clubs And<br />Groups",
+
     content:
       "Our membership management software provides full automation of membership renewals and paymentsh",
     icon: services03,
