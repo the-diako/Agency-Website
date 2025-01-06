@@ -4,7 +4,7 @@ import { featuers } from "../constants";
 const Achievements = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center lg:flex-row my-10">
-      <div className="w-full lg:w-1/2">
+      <div className="w-full lg:w-1/2 text-center lg:text-start">
         <h1 className="text-[#4D4D4D] text-2xl md:text-4xl font-semibold font-Roboto mb-2">
           Helping a local <br />
           <span className="text-primary">business reinvent itself</span>
