@@ -1,11 +1,17 @@
 import React from "react";
 import { arrow } from "../assets";
 
-const Button = ({ title }) => {
+const Button = ({ title, style }) => {
   return (
-    <button className="bg-green-500 text-white font-Roboto font-noraml flex items-center justify-between py-3 px-3 rounded-md">
+    <button
+      className={`bg-green-500 text-white font-Roboto font-noraml flex items-center justify-between py-2 px-2  rounded-md`}
+    >
       {title}
-      <img src={arrow} alt="arrow" className="px-5 md:hidden lg:block" />
+      <img
+        src={arrow}
+        alt="arrow"
+        className="px-1 lg:px-4 md:hidden lg:block"
+      />
     </button>
   );
 };
