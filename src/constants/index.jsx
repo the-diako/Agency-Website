@@ -177,7 +177,7 @@ export const footerLinks = [
   {
     id: "header-2",
     title: "Support",
-    link: [
+    links: [
       {
         id: 1,
         title: "Help center",
