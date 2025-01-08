@@ -24,6 +24,7 @@ import close from "../assets/close.svg";
 import whiteArrow from "../assets/whiteArrow.png";
 import greenArrow from "../assets/greenArrow.png";
 import community from "../assets/community.png";
+import whiteLogo from "../assets/white Logo.png";
 
 export {
   client01,
@@ -52,4 +53,5 @@ export {
   whiteArrow,
   community,
   greenArrow,
+  whiteLogo,
 };
