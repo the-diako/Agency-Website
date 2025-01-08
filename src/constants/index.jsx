@@ -16,6 +16,10 @@ import {
   user01,
   user02,
   user03,
+  instagram,
+  twitter,
+  youtube,
+  ball,
 } from "../assets";
 
 import ComplexButton from "../components/ComplexButton";
@@ -154,23 +158,23 @@ export const footerLinks = [
     links: [
       {
         id: 1,
-        ttile: "About us",
+        title: "About us",
       },
       {
         id: 2,
-        ttile: "Blog",
+        title: "Blog",
       },
       {
         id: 3,
-        ttile: "Contact us",
+        title: "Contact us",
       },
       {
         id: 4,
-        ttile: "Pricing",
+        title: "Pricing",
       },
       {
         id: 5,
-        ttile: "Testimonials",
+        title: "Testimonials",
       },
     ],
   },
@@ -199,5 +203,24 @@ export const footerLinks = [
         title: "Status",
       },
     ],
+  },
+];
+
+export const socialMeda = [
+  {
+    id: 1,
+    icon: instagram,
+  },
+  {
+    id: 2,
+    icon: ball,
+  },
+  {
+    id: 3,
+    icon: twitter,
+  },
+  {
+    id: 4,
+    icon: youtube,
   },
 ];
