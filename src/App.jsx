@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <section className="py-5">
+    <section className="pt-5">
       <div className="w-full px-24">
         <div className="py-5">
           <Navbar />
