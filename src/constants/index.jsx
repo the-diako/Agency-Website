@@ -13,7 +13,12 @@ import {
   featuers02,
   featuers03,
   featuers04,
+  user01,
+  user02,
+  user03,
 } from "../assets";
+
+import ComplexButton from "../components/ComplexButton";
 
 export const navLinks = [
   {
@@ -118,6 +123,27 @@ export const featuers = [
     title: "1,926,436",
     content: "Payments",
     icon: featuers04,
+  },
+];
+
+export const communityUpdatesData = [
+  {
+    id: 1,
+    image: user01,
+    text: "Creating Streamlined Safeguarding Processes with OneRen",
+    button: <ComplexButton title="Readmore" />,
+  },
+  {
+    id: 2,
+    image: user02,
+    text: "What are your safeguarding responsibilities and how can you manage them?",
+    button: <ComplexButton title="Readmore" />,
+  },
+  {
+    id: 3,
+    image: user03,
+    text: "Revamping the Membership Model with Triathlon Australia",
+    button: <ComplexButton title="Readmore" />,
   },
 ];
 
