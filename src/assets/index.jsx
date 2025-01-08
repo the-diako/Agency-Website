@@ -25,10 +25,11 @@ import whiteArrow from "../assets/whiteArrow.png";
 import greenArrow from "../assets/greenArrow.png";
 import community from "../assets/community.png";
 import whiteLogo from "../assets/white Logo.png";
-import instagram from "../assets/instagram.png ";
+import instagram from "../assets/instagram.png";
 import twitter from "../assets/twitter.png";
 import youtube from "../assets/youtube.png";
 import ball from "../assets/ball.png";
+
 export {
   client01,
   client02,
