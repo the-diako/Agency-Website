@@ -12,23 +12,26 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <section className="w-full px-24">
-      <div className="py-5">
-        <Navbar />
+    <section className="py-5">
+      <div className="w-full px-24">
+        <div className="py-5">
+          <Navbar />
+        </div>
+
+        <div className="py-10">
+          <Hero />
+          <Clients />
+          <Services />
+          <Unlock />
+          <Achievements />
+          <Calender />
+          <Community />
+          <CommunityUpdates />
+          <Customer />
+        </div>
       </div>
 
-      <div className="py-10">
-        <Hero />
-        <Clients />
-        <Services />
-        <Unlock />
-        <Achievements />
-        <Calender />
-        <Community />
-        <CommunityUpdates />
-        <Customer />
-        <Footer />
-      </div>
+      <Footer />
     </section>
   );
 };
